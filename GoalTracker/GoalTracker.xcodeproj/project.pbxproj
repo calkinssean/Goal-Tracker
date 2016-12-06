@@ -19,6 +19,8 @@
 		14B3BA4D1DEF81DF001F5AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B3BA4C1DEF81DF001F5AB9 /* Assets.xcassets */; };
 		14B3BA501DEF81DF001F5AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B3BA4E1DEF81DF001F5AB9 /* LaunchScreen.storyboard */; };
 		14C290021DF607F200D0FCAA /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C290011DF607F200D0FCAA /* GoalTableViewCell.swift */; };
+		14C2900E1DF74ED800D0FCAA /* GoalTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2900D1DF74ED800D0FCAA /* GoalTypeViewController.swift */; };
+		14C290101DF74FF300D0FCAA /* GoalTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2900F1DF74FF300D0FCAA /* GoalTypeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		14C290011DF607F200D0FCAA /* GoalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
 		14C290091DF60C6900D0FCAA /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Goal+CoreDataClass.swift"; path = "../Goal+CoreDataClass.swift"; sourceTree = "<group>"; };
 		14C2900A1DF60C6900D0FCAA /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Goal+CoreDataProperties.swift"; path = "../Goal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		14C2900D1DF74ED800D0FCAA /* GoalTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalTypeViewController.swift; sourceTree = "<group>"; };
+		14C2900F1DF74FF300D0FCAA /* GoalTypeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				1430D5661DF5F42900E84885 /* SettingsViewController.swift */,
 				1430D5601DF5F27F00E84885 /* MenuViewController.swift */,
 				1430D5621DF5F40F00E84885 /* HomeViewController.swift */,
+				14C2900D1DF74ED800D0FCAA /* GoalTypeViewController.swift */,
 				1430D5641DF5F41C00E84885 /* RateViewController.swift */,
 			);
 			name = "View Controllers";
@@ -126,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				14C290011DF607F200D0FCAA /* GoalTableViewCell.swift */,
+				14C2900F1DF74FF300D0FCAA /* GoalTypeCollectionViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -217,7 +223,9 @@
 			files = (
 				1430D5611DF5F27F00E84885 /* MenuViewController.swift in Sources */,
 				14C290021DF607F200D0FCAA /* GoalTableViewCell.swift in Sources */,
+				14C290101DF74FF300D0FCAA /* GoalTypeCollectionViewCell.swift in Sources */,
 				14B3BA4B1DEF81DF001F5AB9 /* GoalTracker.xcdatamodeld in Sources */,
+				14C2900E1DF74ED800D0FCAA /* GoalTypeViewController.swift in Sources */,
 				14B3BA431DEF81DF001F5AB9 /* AppDelegate.swift in Sources */,
 				1430D5691DF6018C00E84885 /* DataController.swift in Sources */,
 				1430D55E1DF5DA1E00E84885 /* SWRevealViewController.m in Sources */,

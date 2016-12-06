@@ -62,7 +62,7 @@ extension HomeViewController {
     
     @IBAction func addTapped(_ sender: UIBarButtonItem) {
         
-        print("Add tapped")
+        self.performSegue(withIdentifier: "New Goal Segue", sender: self)
         
     }
     

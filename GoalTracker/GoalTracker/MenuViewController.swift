@@ -26,8 +26,19 @@ class MenuViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-  
+    
+    
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        if section == 0 {
+            
+            let header = view as! UITableViewHeaderFooterView
+            header.backgroundView = UIView()
+            header.textLabel?.text = "Goal Tracker"
+            header.textLabel?.textColor = .white
+            
+        }
+    }
+   
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
